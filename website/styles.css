@@ -1,0 +1,14 @@
+img {
+	background-color: #000;
+	margin: 12px;
+	padding: 5px;
+	float: left;
+	width: auto;
+	border: thick double #000;
+	top: auto;
+	font-family: Verdana, Geneva, sans-serif;
+	font-style: normal;
+}
+td {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
