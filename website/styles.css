@@ -1,14 +1,56 @@
 img {
 	background-color: #000;
 	margin: 12px;
-	padding: 5px;
+	padding: 10px;
 	float: left;
 	width: auto;
-	border: thick double #000;
+	border: thick double #666;
 	top: auto;
 	font-family: Verdana, Geneva, sans-serif;
 	font-style: normal;
 }
 td {
 	font-family: Georgia, "Times New Roman", Times, serif;
+	padding: 0px;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 2.5em;
+	color: #666666;
+	padding: 50px;
+	background-color: #F99;
+}
+.secondary-nav {
+	width: 30%;
+	vertical-align: top;
+	background-color: #CCC;
+}
+.content-area {
+	padding-left: 50px;
+	background-color: #91BDBE;
+}
+.villains-buttons {
+	padding: 0px;
+	background-color: #FCF;
+	width: 25%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.companions-buttons {
+	padding: 0px;
+	width: 25%;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #FC9;
+}
+.doctors-buttons {
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0px;
+	width: 25%;
+	background-color: #939;
+}
+.home-buttons {
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0px;
+	width: 25%;
+	background-color: #399;
 }
