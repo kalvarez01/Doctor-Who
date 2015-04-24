@@ -10,6 +10,7 @@
 <!-- TemplateParam name="The Doctors Menu" type="boolean" value="false" -->
 <!-- TemplateParam name="The Companions" type="boolean" value="false" -->
 <link href="../styles.css" rel="stylesheet" type="text/css">
+<!-- TemplateParam name="The Villains" type="boolean" value="true" -->
 </head>
 
 <body>
@@ -59,7 +60,7 @@
           <li><a href="../the-companions/ben-jackson.html">Ben Jackson</a></li>
         <!-- TemplateEndIf -->
       </ul>
-      <!-- TemplateBeginEditable name="The Villians" -->
+      <!-- TemplateBeginIf cond="_document['The Villains']" -->
       <p>&nbsp;</p>
       <ul>
         <li><a href="../the-villians/">The Villians</a></li>
@@ -74,9 +75,9 @@
         <li><a href="../the-villians/animus.html">Animus</a></li>
         <li><a href="../the-villians/abzorbaloff.html">Abzorbaloff</a></li>
       </ul>
-<p>&nbsp;</p>
-      <!-- TemplateEndEditable --></td>
-    <td><h1>&nbsp;</h1>
+      <p>&nbsp;</p>
+      <!-- TemplateEndIf --></td>
+    <td><!-- TemplateBeginEditable name="Content" -->Content<!-- TemplateEndEditable -->
     <p>&nbsp;</p></td>
   </tr>
 </table>
