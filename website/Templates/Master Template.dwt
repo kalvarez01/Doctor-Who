@@ -11,6 +11,11 @@
 <!-- TemplateParam name="The Companions" type="boolean" value="false" -->
 <link href="../styles.css" rel="stylesheet" type="text/css">
 <!-- TemplateParam name="The Villains" type="boolean" value="true" -->
+<style type="text/css">
+body {
+	background-color: #000;
+}
+</style>
 </head>
 
 <body>
